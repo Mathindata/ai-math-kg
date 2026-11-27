@@ -1,0 +1,23 @@
+{
+  "summaries": {
+    "Most results are risky": 0.0,
+    "Few results are critical foundations": 1.0,
+    "Most long results have no Lean proof": 1.0,
+    "Most results that rely on others rely mostly on risky ones": 0.06,
+    "Most repaired results (Oct 7) were long": 0.87,
+    "Lean-checked results that rely mostly on risky ones (count)": 7.0
+  },
+  "lean_checked_relying_on_risky": [
+    "A counterexample to Hadwiger's conjecture",
+    "Critical honeycomb chords with prescribed boundary endpoints",
+    "Critical slowing down in the Sherrington\u2013Kirkpatrick model",
+    "Generalized ionization energies for full Coulomb atoms",
+    "Local smoothing for the Euclidean wave equation",
+    "Replacing Gaussian observations in memory-constrained inference",
+    "The Kirchberg\u2013R\u00f8rdam character criterion"
+  ],
+  "n_current": 730,
+  "n_relying_on_others": 270,
+  "repaired_in_snapshot": 14,
+  "others_in_snapshot": 691
+}

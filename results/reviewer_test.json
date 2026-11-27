@@ -1,0 +1,98 @@
+[
+  {
+    "cases": 2093,
+    "list_length": 20,
+    "second_level_weight": 0.0,
+    "methods": {
+      "co-authors of cited authors": {
+        "recall_of_hidden_experts": 0.1682,
+        "found_at_least_one": 0.6971
+      },
+      "neighbours: Jaccard": {
+        "recall_of_hidden_experts": 0.4349,
+        "found_at_least_one": 0.8118
+      },
+      "neighbours: OWA similarity": {
+        "recall_of_hidden_experts": 0.4294,
+        "found_at_least_one": 0.8103
+      }
+    }
+  },
+  {
+    "cases": 2093,
+    "list_length": 20,
+    "second_level_weight": 0.25,
+    "methods": {
+      "co-authors of cited authors": {
+        "recall_of_hidden_experts": 0.1682,
+        "found_at_least_one": 0.6971
+      },
+      "neighbours: Jaccard": {
+        "recall_of_hidden_experts": 0.4349,
+        "found_at_least_one": 0.8118
+      },
+      "neighbours: OWA similarity": {
+        "recall_of_hidden_experts": 0.4259,
+        "found_at_least_one": 0.8237
+      }
+    }
+  },
+  {
+    "cases": 2093,
+    "list_length": 20,
+    "second_level_weight": 0.5,
+    "methods": {
+      "co-authors of cited authors": {
+        "recall_of_hidden_experts": 0.1682,
+        "found_at_least_one": 0.6971
+      },
+      "neighbours: Jaccard": {
+        "recall_of_hidden_experts": 0.4349,
+        "found_at_least_one": 0.8118
+      },
+      "neighbours: OWA similarity": {
+        "recall_of_hidden_experts": 0.4128,
+        "found_at_least_one": 0.8208
+      }
+    }
+  },
+  {
+    "cases": 2093,
+    "list_length": 20,
+    "second_level_weight": 1.0,
+    "methods": {
+      "co-authors of cited authors": {
+        "recall_of_hidden_experts": 0.1682,
+        "found_at_least_one": 0.6971
+      },
+      "neighbours: Jaccard": {
+        "recall_of_hidden_experts": 0.4349,
+        "found_at_least_one": 0.8118
+      },
+      "neighbours: OWA similarity": {
+        "recall_of_hidden_experts": 0.3756,
+        "found_at_least_one": 0.8046
+      },
+      "OWA coverage, orness 0.81": {
+        "recall_of_hidden_experts": 0.1465,
+        "found_at_least_one": 0.6813
+      },
+      "OWA coverage, orness 0.67": {
+        "recall_of_hidden_experts": 0.1468,
+        "found_at_least_one": 0.6837
+      },
+      "OWA coverage, orness 0.50": {
+        "recall_of_hidden_experts": 0.1469,
+        "found_at_least_one": 0.677
+      },
+      "OWA coverage, orness 0.33": {
+        "recall_of_hidden_experts": 0.145,
+        "found_at_least_one": 0.6699
+      },
+      "OWA coverage, orness 0.19": {
+        "recall_of_hidden_experts": 0.1447,
+        "found_at_least_one": 0.6675
+      }
+    }
+  }
+]

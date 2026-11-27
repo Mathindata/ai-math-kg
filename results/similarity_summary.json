@@ -1,0 +1,377 @@
+{
+  "manuscripts": 730,
+  "families": 375,
+  "task_1_family_members": {
+    "chosen_on_train": {
+      "lambda": 0.5,
+      "alpha": 0.5,
+      "orness": 0.673,
+      "family_map_train": 0.9148,
+      "family_map_test": 0.8764,
+      "discipline_acc_train": 0.5662,
+      "discipline_acc_test": 0.6406
+    },
+    "owa_test_map": 0.8764
+  },
+  "task_2_discipline_from_other_families": {
+    "chosen_on_train": {
+      "lambda": 1.0,
+      "alpha": 1,
+      "orness": 0.5,
+      "family_map_train": 0.9017,
+      "family_map_test": 0.8602,
+      "discipline_acc_train": 0.6182,
+      "discipline_acc_test": 0.7014
+    },
+    "owa_test_acc": 0.7014,
+    "majority_class_acc": 0.1438
+  },
+  "baselines": {
+    "Jaccard (shared references)": {
+      "family_map_test": 0.874,
+      "owa_family_gain": 0.0024,
+      "owa_family_gain_95ci": [
+        -0.01,
+        0.014
+      ],
+      "discipline_acc_test": 0.5826,
+      "owa_discipline_gain": 0.1188,
+      "owa_discipline_gain_95ci": [
+        0.07,
+        0.168
+      ]
+    },
+    "TF-IDF cosine": {
+      "family_map_test": 0.8831,
+      "owa_family_gain": -0.0067,
+      "owa_family_gain_95ci": [
+        -0.015,
+        0.001
+      ],
+      "discipline_acc_test": 0.5826,
+      "owa_discipline_gain": 0.1188,
+      "owa_discipline_gain_95ci": [
+        0.07,
+        0.168
+      ]
+    },
+    "Adamic-Adar": {
+      "family_map_test": 0.8671,
+      "owa_family_gain": 0.0093,
+      "owa_family_gain_95ci": [
+        -0.003,
+        0.022
+      ],
+      "discipline_acc_test": 0.6116,
+      "owa_discipline_gain": 0.0899,
+      "owa_discipline_gain_95ci": [
+        0.041,
+        0.139
+      ]
+    },
+    "Flat bag: works + their authors + areas": {
+      "family_map_test": 0.8654,
+      "owa_family_gain": 0.011,
+      "owa_family_gain_95ci": [
+        -0.002,
+        0.025
+      ],
+      "discipline_acc_test": 0.7159,
+      "owa_discipline_gain": -0.0145,
+      "owa_discipline_gain_95ci": [
+        -0.055,
+        0.023
+      ]
+    }
+  },
+  "grid": [
+    {
+      "lambda": 0.0,
+      "alpha": 0.1,
+      "orness": 0.914,
+      "family_map_train": 0.902,
+      "family_map_test": 0.8704,
+      "discipline_acc_train": 0.4519,
+      "discipline_acc_test": 0.5739
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 0.25,
+      "orness": 0.808,
+      "family_map_train": 0.9029,
+      "family_map_test": 0.8737,
+      "discipline_acc_train": 0.4494,
+      "discipline_acc_test": 0.5797
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 0.5,
+      "orness": 0.673,
+      "family_map_train": 0.9023,
+      "family_map_test": 0.8748,
+      "discipline_acc_train": 0.4468,
+      "discipline_acc_test": 0.5768
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 1,
+      "orness": 0.5,
+      "family_map_train": 0.9018,
+      "family_map_test": 0.8784,
+      "discipline_acc_train": 0.4519,
+      "discipline_acc_test": 0.5768
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 2,
+      "orness": 0.325,
+      "family_map_train": 0.9024,
+      "family_map_test": 0.8826,
+      "discipline_acc_train": 0.4571,
+      "discipline_acc_test": 0.5826
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 4,
+      "orness": 0.185,
+      "family_map_train": 0.9011,
+      "family_map_test": 0.8837,
+      "discipline_acc_train": 0.4597,
+      "discipline_acc_test": 0.5797
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 10,
+      "orness": 0.072,
+      "family_map_train": 0.8769,
+      "family_map_test": 0.8412,
+      "discipline_acc_train": 0.4571,
+      "discipline_acc_test": 0.571
+    },
+    {
+      "lambda": 0.0,
+      "alpha": 1000,
+      "orness": 0.0,
+      "family_map_train": 0.0532,
+      "family_map_test": 0.0498,
+      "discipline_acc_train": 0.0623,
+      "discipline_acc_test": 0.0493
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 0.1,
+      "orness": 0.914,
+      "family_map_train": 0.9062,
+      "family_map_test": 0.872,
+      "discipline_acc_train": 0.5351,
+      "discipline_acc_test": 0.6319
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 0.25,
+      "orness": 0.808,
+      "family_map_train": 0.9073,
+      "family_map_test": 0.8761,
+      "discipline_acc_train": 0.5377,
+      "discipline_acc_test": 0.6377
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 0.5,
+      "orness": 0.673,
+      "family_map_train": 0.9082,
+      "family_map_test": 0.8779,
+      "discipline_acc_train": 0.5429,
+      "discipline_acc_test": 0.6406
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 1,
+      "orness": 0.5,
+      "family_map_train": 0.9093,
+      "family_map_test": 0.8797,
+      "discipline_acc_train": 0.5662,
+      "discipline_acc_test": 0.6609
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 2,
+      "orness": 0.325,
+      "family_map_train": 0.9057,
+      "family_map_test": 0.8719,
+      "discipline_acc_train": 0.561,
+      "discipline_acc_test": 0.6957
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 4,
+      "orness": 0.185,
+      "family_map_train": 0.8834,
+      "family_map_test": 0.8227,
+      "discipline_acc_train": 0.5481,
+      "discipline_acc_test": 0.6841
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 10,
+      "orness": 0.072,
+      "family_map_train": 0.8525,
+      "family_map_test": 0.7538,
+      "discipline_acc_train": 0.5351,
+      "discipline_acc_test": 0.6754
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 1000,
+      "orness": 0.0,
+      "family_map_train": 0.092,
+      "family_map_test": 0.0759,
+      "discipline_acc_train": 0.3766,
+      "discipline_acc_test": 0.5043
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 0.1,
+      "orness": 0.914,
+      "family_map_train": 0.9091,
+      "family_map_test": 0.8713,
+      "discipline_acc_train": 0.5429,
+      "discipline_acc_test": 0.6319
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 0.25,
+      "orness": 0.808,
+      "family_map_train": 0.9111,
+      "family_map_test": 0.8754,
+      "discipline_acc_train": 0.5481,
+      "discipline_acc_test": 0.6406
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 0.5,
+      "orness": 0.673,
+      "family_map_train": 0.9148,
+      "family_map_test": 0.8764,
+      "discipline_acc_train": 0.5662,
+      "discipline_acc_test": 0.6406
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 1,
+      "orness": 0.5,
+      "family_map_train": 0.9128,
+      "family_map_test": 0.8726,
+      "discipline_acc_train": 0.5896,
+      "discipline_acc_test": 0.6986
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 2,
+      "orness": 0.325,
+      "family_map_train": 0.9037,
+      "family_map_test": 0.8572,
+      "discipline_acc_train": 0.5688,
+      "discipline_acc_test": 0.6957
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 4,
+      "orness": 0.185,
+      "family_map_train": 0.877,
+      "family_map_test": 0.8071,
+      "discipline_acc_train": 0.5455,
+      "discipline_acc_test": 0.687
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 10,
+      "orness": 0.072,
+      "family_map_train": 0.8468,
+      "family_map_test": 0.7497,
+      "discipline_acc_train": 0.5351,
+      "discipline_acc_test": 0.6754
+    },
+    {
+      "lambda": 0.5,
+      "alpha": 1000,
+      "orness": 0.0,
+      "family_map_train": 0.092,
+      "family_map_test": 0.0759,
+      "discipline_acc_train": 0.3766,
+      "discipline_acc_test": 0.5043
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 0.1,
+      "orness": 0.914,
+      "family_map_train": 0.9018,
+      "family_map_test": 0.8613,
+      "discipline_acc_train": 0.574,
+      "discipline_acc_test": 0.6522
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 0.25,
+      "orness": 0.808,
+      "family_map_train": 0.9044,
+      "family_map_test": 0.8627,
+      "discipline_acc_train": 0.5818,
+      "discipline_acc_test": 0.658
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 0.5,
+      "orness": 0.673,
+      "family_map_train": 0.9046,
+      "family_map_test": 0.8624,
+      "discipline_acc_train": 0.6,
+      "discipline_acc_test": 0.6725
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 1,
+      "orness": 0.5,
+      "family_map_train": 0.9017,
+      "family_map_test": 0.8602,
+      "discipline_acc_train": 0.6182,
+      "discipline_acc_test": 0.7014
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 2,
+      "orness": 0.325,
+      "family_map_train": 0.8935,
+      "family_map_test": 0.8318,
+      "discipline_acc_train": 0.5688,
+      "discipline_acc_test": 0.6986
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 4,
+      "orness": 0.185,
+      "family_map_train": 0.8688,
+      "family_map_test": 0.7888,
+      "discipline_acc_train": 0.5455,
+      "discipline_acc_test": 0.687
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 10,
+      "orness": 0.072,
+      "family_map_train": 0.8412,
+      "family_map_test": 0.7456,
+      "discipline_acc_train": 0.5351,
+      "discipline_acc_test": 0.6696
+    },
+    {
+      "lambda": 1.0,
+      "alpha": 1000,
+      "orness": 0.0,
+      "family_map_train": 0.092,
+      "family_map_test": 0.0759,
+      "discipline_acc_train": 0.3766,
+      "discipline_acc_test": 0.5072
+    }
+  ]
+}

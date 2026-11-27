@@ -1,0 +1,214 @@
+{
+  "snapshot_manuscripts": 718,
+  "snapshot_uses_edges": 385,
+  "positives_repaired": 14,
+  "left_out_citation_only": 13,
+  "negatives": 691,
+  "base_rate": 0.02,
+  "owa_sweep": [
+    {
+      "alpha": 0.25,
+      "orness": 0.814,
+      "auc": 0.714,
+      "p@20": 0.1,
+      "p@50": 0.06
+    },
+    {
+      "alpha": 0.5,
+      "orness": 0.678,
+      "auc": 0.716,
+      "p@20": 0.1,
+      "p@50": 0.08
+    },
+    {
+      "alpha": 1,
+      "orness": 0.5,
+      "auc": 0.716,
+      "p@20": 0.1,
+      "p@50": 0.08
+    },
+    {
+      "alpha": 2,
+      "orness": 0.317,
+      "auc": 0.72,
+      "p@20": 0.15,
+      "p@50": 0.1
+    },
+    {
+      "alpha": 4,
+      "orness": 0.17,
+      "auc": 0.722,
+      "p@20": 0.15,
+      "p@50": 0.1
+    },
+    {
+      "alpha": 8,
+      "orness": 0.075,
+      "auc": 0.722,
+      "p@20": 0.15,
+      "p@50": 0.1
+    },
+    {
+      "alpha": 32,
+      "orness": 0.004,
+      "auc": 0.722,
+      "p@20": 0.15,
+      "p@50": 0.1
+    },
+    {
+      "alpha": 1000,
+      "orness": 0.0,
+      "auc": 0.723,
+      "p@20": 0.2,
+      "p@50": 0.1
+    }
+  ],
+  "baselines": [
+    {
+      "score": "not Lean-checked",
+      "auc": 0.589,
+      "p@20": 0.0,
+      "p@50": 0.0
+    },
+    {
+      "score": "uses (AI prerequisites)",
+      "auc": 0.732,
+      "p@20": 0.2,
+      "p@50": 0.12
+    },
+    {
+      "score": "used by",
+      "auc": 0.561,
+      "p@20": 0.0,
+      "p@50": 0.0
+    },
+    {
+      "score": "depth of reasoning chain",
+      "auc": 0.751,
+      "p@20": 0.3,
+      "p@50": 0.12
+    },
+    {
+      "score": "unchecked prerequisites (all levels)",
+      "auc": 0.733,
+      "p@20": 0.3,
+      "p@50": 0.14
+    },
+    {
+      "score": "number of references",
+      "auc": 0.7,
+      "p@20": 0.15,
+      "p@50": 0.12
+    },
+    {
+      "score": "length of the LaTeX",
+      "auc": 0.786,
+      "p@20": 0.0,
+      "p@50": 0.04
+    },
+    {
+      "score": "random",
+      "auc": 0.46,
+      "p@20": 0.0,
+      "p@50": 0.0
+    }
+  ],
+  "repaired_ranks_at_alpha_2": [
+    4,
+    17,
+    19,
+    29,
+    46,
+    55,
+    131,
+    164,
+    186,
+    368,
+    378,
+    457,
+    475,
+    584
+  ],
+  "review_top10": [
+    {
+      "mid": "Minimal-models-and-Mori-fibre-spaces-for-generalized-log-canonical-Q-pairs-September-24-2026",
+      "title": "Minimal models and Mori fibre spaces for generalized log canonical Q-pairs",
+      "family": "036",
+      "used_by_all_levels": 21,
+      "trust_lost_if_wrong": 7.62,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "Log-abundance-in-characteristic-zero-September-24-2026",
+      "title": "Log abundance in characteristic zero",
+      "family": "034",
+      "used_by_all_levels": 19,
+      "trust_lost_if_wrong": 5.98,
+      "own_trust": 0.64
+    },
+    {
+      "mid": "Conformal-flow-and-the-Riemannian-Penrose-inequality-with-minimizing-frontiers-September-27-2026",
+      "title": "Conformal flow and the Riemannian Penrose inequality with minimizing frontiers",
+      "family": "260",
+      "used_by_all_levels": 9,
+      "trust_lost_if_wrong": 4.28,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
+      "title": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves",
+      "family": "006",
+      "used_by_all_levels": 6,
+      "trust_lost_if_wrong": 3.31,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "The-spacetime-Penrose-inequality-and-enclosing-area-September-27-2026",
+      "title": "The spacetime Penrose inequality and enclosing area",
+      "family": "260",
+      "used_by_all_levels": 8,
+      "trust_lost_if_wrong": 3.19,
+      "own_trust": 0.64
+    },
+    {
+      "mid": "Anticanonical-nonvanishing-from-smooth-semipositivity-September-26-2026",
+      "title": "Anticanonical nonvanishing from smooth semipositivity",
+      "family": "068",
+      "used_by_all_levels": 6,
+      "trust_lost_if_wrong": 3.09,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "A-spectral-gap-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+      "title": "A spectral gap throughout the high-temperature Sherrington\u2013Kirkpatrick phase",
+      "family": "227",
+      "used_by_all_levels": 5,
+      "trust_lost_if_wrong": 3.08,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "Buffered-comparison-and-stopping-band-resolution-in-critical-Ising-September-23-2026",
+      "title": "Buffered comparison and stopping-band resolution in critical Ising",
+      "family": "218",
+      "used_by_all_levels": 6,
+      "trust_lost_if_wrong": 3.05,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "Rokhlins-multiple-mixing-problem-for-one-transformation-September-23-2026",
+      "title": "Rokhlin's multiple-mixing problem for one transformation",
+      "family": "145",
+      "used_by_all_levels": 6,
+      "trust_lost_if_wrong": 2.8,
+      "own_trust": 0.8
+    },
+    {
+      "mid": "Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026",
+      "title": "Weighted dilation graphs, smooth shifted primes and totient fibers",
+      "family": "011",
+      "used_by_all_levels": 5,
+      "trust_lost_if_wrong": 2.59,
+      "own_trust": 0.8
+    }
+  ]
+}

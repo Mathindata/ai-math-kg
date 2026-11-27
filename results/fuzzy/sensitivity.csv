@@ -1,0 +1,20 @@
+choice,variant,rank_agreement_all,rank_agreement_reliers,same_risky_set,same_critical_set,n_risky_over_half,n_critical_over_half,T(most repaired were risky),T(few others were risky),auc_repairs
+base,base setting,1.0,1.0,1.0,1.0,178,11,0.97,0.28,0.81
+measure,whole LaTeX,0.929,0.948,0.785,0.864,188,10,0.9,0.23,0.794
+measure,average proof length,0.653,0.589,0.476,0.615,191,13,0.24,0.14,0.609
+long,p40-p80 linear (lenient),0.958,0.946,0.69,0.741,258,14,1.0,0.0,0.81
+long,p60-p95 linear (strict),0.946,0.948,0.674,0.85,120,6,0.63,0.68,0.813
+long,sigmoid around p75,0.925,0.963,0.844,0.8,211,12,1.0,0.0,0.804
+heavily,crisp (any use counts fully),0.997,0.991,0.978,0.95,174,10,0.97,0.3,0.814
+most,"Zadeh, ramp 0.5-0.9 (strict)",0.988,0.976,0.927,0.95,165,10,0.97,0.34,0.815
+most,"Zadeh, ramp 0.2-0.6 (lenient)",0.992,0.976,0.937,1.0,190,11,0.97,0.2,0.796
+most,"Yager OWA, same ramp 0.3-0.8",0.982,0.974,0.973,1.0,183,11,0.99,0.25,0.835
+most,"Yager OWA, Q(r)=r^2",0.982,0.97,0.972,1.0,179,10,0.99,0.27,0.838
+most,"Yager OWA, Q(r)=r^3",0.981,0.965,0.945,0.9,174,9,0.98,0.28,0.838
+most,average (Q(r)=r),0.981,0.972,0.967,1.0,184,11,0.99,0.25,0.837
+most,all (minimum),0.978,0.952,0.939,0.9,173,9,0.95,0.3,0.837
+most,some (maximum),0.977,0.959,0.937,1.0,190,11,1.0,0.2,0.834
+logic,product/prob-sum,0.999,0.995,0.957,0.95,186,9,0.97,0.25,0.807
+logic,Lukasiewicz,0.998,0.989,0.947,0.9,188,9,0.97,0.23,0.803
+many,2-10 (wider),1.0,1.0,1.0,1.0,178,6,0.97,0.28,0.81
+many,4-20 (strict),1.0,1.0,1.0,0.2,178,2,0.97,0.28,0.81

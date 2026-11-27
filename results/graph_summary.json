@@ -1,0 +1,31 @@
+{
+  "manuscript_folders": 761,
+  "status": {
+    "current": 730,
+    "superseded": 28,
+    "withdrawn": 3
+  },
+  "families": 375,
+  "disciplines": 17,
+  "lean_formalized": 186,
+  "reference_entries": 19798,
+  "cited_human_works": 11321,
+  "cites_edges": 18999,
+  "authors": 8492,
+  "depends_on_edges": 685,
+  "depends_on_by_source": {
+    "bibliography": 683,
+    "withdrawal_notice": 2
+  },
+  "manuscript_links_by_kind": {
+    "uses": 452,
+    "mentions": 233
+  },
+  "depends_on_missing_targets": 0,
+  "previous_version_edges": 27,
+  "subsumed_by_edges": 2,
+  "related_family_pairs": 2,
+  "manuscripts_without_family": 3,
+  "papers_with_doi": 8243,
+  "papers_with_arxiv": 3916
+}
